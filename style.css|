@@ -1,0 +1,21 @@
+body {
+    background-color: grey;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    width: 800px;
+    margin: auto;
+}
+
+#educacion li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 5px;
+}
+
+#portafolio article {
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+}
