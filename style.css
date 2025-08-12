@@ -54,12 +54,21 @@ h3 a:hover {
     border-radius: 5px;
 }
 
+/* Estilo para las imágenes de proyecto */
 img {
     border-radius: 8px;
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto 20px auto;
+}
+
+/* Nuevo estilo para la imagen de perfil, haciéndola circular */
+body > img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Para asegurar que la imagen se ajuste sin distorsionarse */
 }
 
 /* Estilos para el texto de la biografía */
