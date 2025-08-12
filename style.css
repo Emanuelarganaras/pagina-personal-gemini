@@ -1,5 +1,6 @@
+/* Estilos generales para todas las pantallas */
 body {
-    background-color: grey;
+    background-color: #f4f4f4;
     font-family: Arial, sans-serif;
 }
 
@@ -8,8 +9,29 @@ body {
     margin: auto;
 }
 
+h1 {
+    font-size: 48px;
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    color: #6495ed;
+    text-align: center;
+}
+
+h3 a {
+    color: #afeeee;
+    text-decoration: none;
+}
+
+h3 a:hover {
+    color: #6495ed;
+}
+
 #educacion li {
-    background-color: #f4f4f4;
+    background-color: white;
     padding: 10px;
     margin: 5px;
 }
@@ -18,4 +40,45 @@ body {
     background-color: white;
     padding: 20px;
     margin: 15px;
+}
+
+img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Estilos para el footer */
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    gap: 20px;
+}
+
+footer li a {
+    color: #555;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    color: #6495ed;
+}
+
+/* Media Query para pantallas más pequeñas
+  Estos estilos se aplican solo cuando el ancho de la pantalla es de 800px o menos.
+*/
+@media (max-width: 800px) {
+    #container {
+        width: 100%;
+        margin: 0;
+        padding: 10px; /* Agregamos un poco de padding para que el contenido no se pegue a los bordes */
+    }
 }
