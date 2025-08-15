@@ -64,7 +64,7 @@ img {
 }
 
 /* Nuevo estilo para la imagen de perfil, haciéndola circular */
-body > img {
+.perfil {
     border-radius: 50%;
     width: 150px;
     height: 150px;
