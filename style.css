@@ -23,7 +23,7 @@ h1 {
 h2 {
     font-size: 30px;
     color: #6495ed;
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
 }
 
@@ -45,6 +45,7 @@ h3 a:hover {
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #portafolio article {
@@ -52,6 +53,7 @@ h3 a:hover {
     padding: 20px;
     margin-bottom: 15px;
     border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Estilo para la imagen de perfil, haciéndola circular */
@@ -63,6 +65,9 @@ h3 a:hover {
     display: block;
     margin: 0 auto 20px auto;
 }
+
+
+
 
 /* Estilo para las imágenes de proyecto */
 #portafolio img {
